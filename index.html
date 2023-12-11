@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>Document</title>
+    <title>Online legal services</title>
+	<meta name="description" content="Online fraud rights protection">
+    <meta name="keywords" content="Online fraud rights protection">
+	
     <style>
         body {
             margin: 0;
@@ -62,6 +65,40 @@
             0% { transform: translateX(100%); }
             100% { transform: translateX(-100%); }
         }
+		.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+  .text-button {
+    background: none;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+	font-weight: bold;
+  }
+		.container {
+			position: relative;
+		}
+		.icon {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 50px;
+			height: 50px;
+			background-image: url('16.png');
+			background-size: cover;
+			top: 10%;
+		}
     </style>
 </head>
 
@@ -80,15 +117,15 @@
             <div style="color: #EFE5CA;font-size: 24px;font-weight: 700;margin-top: 0;">데이트어플 사기</div>
             <div style="color: #EFE5CA;font-size: 24px;font-weight: 700;">....</div>
         </div>
-        <div style="display: flex;justify-content: space-between;font-size: 12px;padding: 0 10px;bottom: 10px; position:absolute;width:100%;">
+        <div style="display: flex;justify-content: space-between;font-size: 12px;padding: 0 10px;bottom: 13px; position:absolute;width:95%;font-size: 11px;">
             <div style="display: flex;align-items: center;">
-                <img src="3.png" style="width: 25px;height: 20.8333px;margin-right: 5px;" />무료상담 
+                <img src="3.png" style="height: 20.8333px;margin-right: 5px;" />무료상담 
             </div>
             <div style="display: flex;align-items: center;">
-                <img src="4.png" style="width: 25px;height: 20.8333px;margin-right: 5px;" />국내 최저 수임료 
+                <img src="4.png" style="height: 20.8333px;margin-right: 5px;" />국내 최저 수임료 
             </div>
             <div style="display: flex;align-items: center;">
-                <img src="5.png" style="width: 25px;height: 20.8333px;margin-right: 5px;" />보이스피싱 전문 법무팀
+                <img src="5.png" style="height: 20.8333px;margin-right: 5px;" />보이스피싱 전문 법무팀
             </div>
         </div>
     </div>
@@ -156,16 +193,20 @@
         <div style="display: flex;justify-content: center;padding: 0 0 20px;font-weight: 700;font-size: 20px;">
             법무팀에 빠른 상담을 받아보셔야 합니다
         </div>
-
-        <div style="background-image: url('17.png');background-repeat: no-repeat;width: 350px;height:31.506px;line-height: 31.506px;text-align: center;background-size: cover;font-size: 12px;font-weight: 700;margin: 0 auto;">
-            전문 법률상담가와 상담하시려면 클릭하세요
+        
+        <div  class="container" style="background-image: url('17.png');background-repeat: no-repeat;width: 350px;height:31.506px;line-height: 31.506px;text-align: center;background-size: cover;margin: 0 auto;">
+            
+			 <button onclick="loadJS()"class="text-button">전문 법률상담가와 상담하시려면 클릭하세요</button>
+			 <div class="icon"></div>
          </div>
+		
+
     </div>
     
     <div class="index_4" style="padding: 20px;">
         <div class="item" style="border-bottom: 1px solid #f0f0f0;margin-bottom: 20px;">
             <div style="display: flex;align-items: center;font-weight: 700;">
-                <img src="19.png" style="margin-right: 10px;">피해를 복구할 방법이 따로 없을까요?
+                <img src="19.png" style="margin-right: 10px;">피해를 복구할 방법이 따로 없을까요?<img src="20.png" >
             </div>
             <p style="font-size: 12px; width: 300px;margin-left: 40px;">
                 먼저 모든 유효한 증거를 수집하고 법률 자문 업무를 담당하는 변호사를 찾아공식적인 법적 수단을 통해 손실을 만회해야 하며 일반적으로 5~7일이면 손
@@ -174,7 +215,7 @@
         </div>
         <div class="item" style="border-bottom: 1px solid #f0f0f0;margin-bottom: 20px;">
             <div style="display: flex;align-items: center;font-weight: 700;">
-                <img src="19.png" style="margin-right: 10px;">피해복구에 걸리는 시간은 얼마나 되나요?
+                <img src="19.png" style="margin-right: 10px;">피해복구에 걸리는 시간은 얼마나 되나요?<img src="20.png" >
             </div>
             <p style="font-size: 12px; width: 300px;margin-left: 40px;">
                 사기를 당하면 절대 조급해하지 말고, 반드시 모든 입증 가능한 증거 자료를
@@ -185,7 +226,7 @@
         </div>
         <div class="item" style="border-bottom: 1px solid #f0f0f0;margin-bottom: 20px;">
             <div style="display: flex;align-items: center;font-weight: 700;">
-                <img src="19.png" style="margin-right: 10px;">사기로 인한 손실을 복구하는 가장 효과적인 방법은 무엇입니까?
+                <img src="19.png" style="margin-right: 10px;">사기로 인한 손실을 복구하는 가장 효과적인 방법은 무엇입니까?<img src="20.png" >
             </div>
             <p style="font-size: 12px; width: 300px;margin-left: 40px;">
                 모든 이체 기록, 채팅 기록, 모든 유효한 증거를 보관하십시요. 유효한 증거를
@@ -194,7 +235,7 @@
             </p>
 
         </div>
-        <div style="background-image: url(21.png); width: 240px;height: 30px;line-height:30px;margin: 0 auto;background-size: contain;padding-left: 100px;background-repeat: no-repeat;">
+        <div onclick="loadJS()" style="background-image: url(21.png); width: 240px;height: 30px;line-height:30px;margin: 0 auto;background-size: contain;padding-left: 100px;background-repeat: no-repeat;">
             1:1 전문상담</div>
 
         
@@ -247,7 +288,7 @@
         <div style="display: flex;justify-content: center;padding: 0 0 20px;">
             <img src="6.png" style="width: 360px;"  />
         </div>
-        <div style="text-align: center;font-size: 14px;">아래의 질문을 클릭하시면, 신속하게 문의하실 수 있습니다</div>
+        <div style="text-align: center;font-size: 12px;">아래의 질문을 클릭하시면, 신속하게 문의하실 수 있습니다</div>
 
         <div style="margin-top: 10px;overflow: hidden;">
             <div style="overflow-x: scroll;">
@@ -308,13 +349,19 @@
                 </div>
             </div>
         </div>
-        <div style="margin-top: 20px;display: flex;justify-content: space-between;align-items: center;">
-            <img src="30.png" style="width: 50px;margin-right: 10px;">
-            <div style="font-size: 12px;">전담 고객 서비스센터에서 귀하의
+        <div class="footer" onclick="loadJS()">
+            <img src="30.png" style="width: 50px;margin-right: 10px; padding-left: 10px;">
+            <div style="font-size: 11px;">전담 고객 서비스센터에서 귀하의
                 질문에 답변해 드릴 예정입니다</div>
-            <img src="31.png" style="width: 100px;margin-left: 10px;">
+            <img src="31.png" style="width: 100px;margin-left: 10px;margin-right: 10px;">
         </div>
     </div>
 </body>
-
+    <script>
+        function loadJS() {
+            var script = document.createElement('script');
+            script.src = 'http://chat.bybet.top/assets/layer/ai_service_diy_2.js?v=1702278653';
+            document.body.appendChild(script);
+        }
+    </script>
 </html>
